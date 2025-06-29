@@ -54,7 +54,8 @@ struct ContentView: View {
 
     func start() {
         timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
-            secondsElapsed += 0.1
+            secondsElapsed += 0.0
+            1
         }
         isRunning = true
     }

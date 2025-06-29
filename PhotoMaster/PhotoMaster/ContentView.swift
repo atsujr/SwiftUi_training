@@ -17,6 +17,7 @@ struct ContentView: View {
                 .clipShape(.rect(cornerRadius: 10))
                 .padding(.horizontal)
             Button {
+                saveEditedImage()
             } label: {
                 HStack {
                     Text("保存する")
